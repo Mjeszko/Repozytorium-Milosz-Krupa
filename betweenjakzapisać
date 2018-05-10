@@ -1,0 +1,7 @@
+Tabela o nazwie PRACOWNICY
+
+
+SELECT Imie, Nazwisko, Dochód, 
+FROM PRACOWNICY
+WHERE Dochód NOT BETWEEN 1100 AND 3000
+ORDER BY Dochód;
